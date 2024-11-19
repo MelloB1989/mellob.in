@@ -228,6 +228,24 @@ export const DATA = {
       video: "/openai-workshop.mp4",
     },
     {
+      title: "Web development and metaverse workshop",
+      href: "https://www.linkedin.com/feed/update/urn:li:activity:7101603094412591104?utm_source=share&utm_medium=member_desktop",
+      dates: "2023",
+      active: true,
+      description: `🚀 We've just concluded a dynamic 2-day workshop on web development, where we dived deep into the basics of HTML, CSS, and JavaScript. 🖥️.
+ `,
+      links: [
+        {
+          type: "LinkedIn Post",
+          href: "https://www.linkedin.com/feed/update/urn:li:activity:7101603094412591104?utm_source=share&utm_medium=member_desktop",
+          icon: <Icons.linkedin className="size-3" />,
+        },
+      ],
+      image:
+        "https://media.licdn.com/dms/image/v2/D5622AQE6IIQQ7GWhIg/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1693154113267?e=1735171200&v=beta&t=3XgnOnzgXq1MQanIHI-iq_oCDiJl1TQg-46pEVKKdIw",
+      video: "",
+    },
+    {
       title: "Ethical Hacking Workshop",
       href: "https://www.linkedin.com/posts/mellobai_noobs-noobslearning-activity-7048170922477842432-Wb48/?utm_source=share&utm_medium=member_desktop",
       dates: "2023",
@@ -244,6 +262,118 @@ export const DATA = {
       ],
       image:
         "https://media.licdn.com/dms/image/v2/D5622AQEqFzY3XO-_eQ/feedshare-shrink_800/feedshare-shrink_800/0/1680414890527?e=1734566400&v=beta&t=Jus3wVwt9sZ07Mm-CQpgqewPYWMMUUhB9f0RTuzVJFk",
+      video: "",
+    },
+    {
+      title: "Microsoft x ByteXL Hackathon at CBIT",
+      href: "https://www.deccanchronicle.com/technology/in-other-news/winners-of-microsoft-bytexl-led-hackxcelerate-2024-at-cbit-891391",
+      dates: "2024",
+      active: true,
+      description: `This prestigious national-level hackathon was hosted by Chaitanya Bharati Institute of Technology in partnership with Microsoft and byteXL. Competing with some of the brightest minds from across the country on 26th-27th April 2024, we secured the top spot and a cash prize of ₹1,50,000. 🎉
+`,
+      links: [
+        {
+          type: "Deccan Chronicle Article",
+          href: "https://www.deccanchronicle.com/technology/in-other-news/winners-of-microsoft-bytexl-led-hackxcelerate-2024-at-cbit-891391",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "LinkedIn Post",
+          href: "https://www.linkedin.com/posts/mellobai_cbithackxcelerate2024-hackathon-innovation-activity-7193325720096378880-zSn1?utm_source=share&utm_medium=member_desktop",
+          icon: <Icons.linkedin className="size-3" />,
+        },
+      ],
+      image:
+        "https://www.deccanchronicle.com/h-upload/2024/04/27/1086388-untitleddesign6.webp",
+      video: "",
+    },
+    {
+      title: "Drone Hackathon",
+      href: "https://www.linkedin.com/posts/mellobai_software-or-hardware-i-got-it-absolutely-activity-7213609757058686978-_of6?utm_source=share&utm_medium=member_desktop",
+      dates: "2024",
+      active: true,
+      description: `I won a national-level 36-hour hackathon at Anurag University in drone technology! 🏆🚁 We spent ₹19k to build the drone completely from scratch. Coming back to hardware after 4 years made me a bit rusty, and it was quite the journey. After hundreds of crashes and even one near-burnt scenario, we finally got it flying! 🔥✈️
+`,
+      links: [
+        {
+          type: "LinkedIn Post",
+          href: "https://www.linkedin.com/posts/mellobai_noobs-noobslearning-activity-7048170922477842432-Wb48/?utm_source=share&utm_medium=member_desktop",
+          icon: <Icons.linkedin className="size-3" />,
+        },
+      ],
+      image: "/drone.jpg",
+      video: "",
+    },
+    {
+      title: "IIT Hyderabad Hackathon",
+      href: "https://www.linkedin.com/posts/mellobai_iithyderabad-forgeinspira-hackathon-activity-7193327618153238529-t3r4?utm_source=share&utm_medium=member_desktop",
+      dates: "2024",
+      active: true,
+      description: `This thrilling event brought together creative minds and innovators from various regions, and I'm proud to say that our team stood out among them. Competing in such an inspiring environment, filled with enthusiastic peers and challenging problems, was truly a phenomenal experience.
+`,
+      links: [
+        {
+          type: "LinkedIn Post",
+          href: "https://www.linkedin.com/posts/mellobai_iithyderabad-forgeinspira-hackathon-activity-7193327618153238529-t3r4?utm_source=share&utm_medium=member_desktop",
+          icon: <Icons.linkedin className="size-3" />,
+        },
+      ],
+      image:
+        "https://media.licdn.com/dms/image/v2/D5622AQFiRiWO00B4Jg/feedshare-shrink_800/feedshare-shrink_800/0/1715022948395?e=1735171200&v=beta&t=CwXARDejpfjoXW-p6ZznO-q3VmmfoaHyRNS3W17vsvQ",
+      video: "",
+    },
+    {
+      title: "CBIT Hackathon",
+      href: "https://www.linkedin.com/posts/mellobai_cbithackathon-sudhee2024-socify-activity-7167528496922054656-Nqeu?utm_source=share&utm_medium=member_desktop",
+      dates: "2024",
+      active: true,
+      description: `Our team took on the challenge in the web/app development domain with a vision to enhance safety and awareness within local communities. The result? Socify - a pioneering social network aimed at crime awareness. 🚨
+`,
+      links: [
+        {
+          type: "LinkedIn Post",
+          href: "https://www.linkedin.com/posts/mellobai_cbithackathon-sudhee2024-socify-activity-7167528496922054656-Nqeu?utm_source=share&utm_medium=member_desktop",
+          icon: <Icons.linkedin className="size-3" />,
+        },
+      ],
+      image:
+        "https://media.licdn.com/dms/image/v2/D5622AQG4ZWhGM9o6AQ/feedshare-shrink_800/feedshare-shrink_800/0/1708871957630?e=1735171200&v=beta&t=w0dJ2k-tzv-V77pvYsJcBW7Jfh2VH-mRPfaBMz3yOzg",
+      video: "",
+    },
+    {
+      title: "GITAM Hackathon",
+      href: "https://www.linkedin.com/posts/mellobai_hackathon-innovation-teamwork-activity-7162295227301421057-8D-q?utm_source=share&utm_medium=member_desktop",
+      dates: "2024",
+      active: true,
+      description: `Thrilled to announce that my team and I clinched the First Place at the National Level Hackathon hosted by GITAM University, Hyderabad, on the 1st and 2nd of February! 🚀This victory is not just a testament to our hard work but also to the spirit of innovation and teamwork. Over these two intense days, we put our skills to the test, collaborated under pressure, and pushed the boundaries of what we thought possible.
+`,
+      links: [
+        {
+          type: "LinkedIn Post",
+          href: "https://www.linkedin.com/posts/mellobai_hackathon-innovation-teamwork-activity-7162295227301421057-8D-q?utm_source=share&utm_medium=member_desktop",
+          icon: <Icons.linkedin className="size-3" />,
+        },
+      ],
+      image:
+        "https://media.licdn.com/dms/image/v2/D5622AQHVpUwJ_CdeRA/feedshare-shrink_800/feedshare-shrink_800/0/1707624247143?e=1735171200&v=beta&t=sEMzazvfiH0ghWhi09AL--aZgSdSyTCnzCsQwafjVBE",
+      video: "",
+    },
+    {
+      title: "National Level Hackathon in Mumbai",
+      href: "https://www.linkedin.com/posts/mellobai_hackathon-coding-teamwork-activity-7117899684395810816--BzK?utm_source=share&utm_medium=member_desktop",
+      dates: "2024",
+      active: true,
+      description: `Thrilled to share that our team clinched the 🥉Second Runner Up🥉 position at the National Hackathon conducted in Vasai, Maharashtra on 6th and 7th October, 2023! 🎉
+`,
+      links: [
+        {
+          type: "LinkedIn Post",
+          href: "https://www.linkedin.com/posts/mellobai_hackathon-coding-teamwork-activity-7117899684395810816--BzK?utm_source=share&utm_medium=member_desktop",
+          icon: <Icons.linkedin className="size-3" />,
+        },
+      ],
+      image:
+        "https://media.licdn.com/dms/image/v2/D5622AQH00FBcEM9mLA/feedshare-shrink_800/feedshare-shrink_800/0/1697039518730?e=1735171200&v=beta&t=VvGtjdZSCwFlQSchchMa-AMj7hDaqYP4XX4dJbo7Pkc",
       video: "",
     },
   ],

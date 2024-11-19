@@ -5,6 +5,7 @@ const nextConfig = {
     domains: [
       "media.licdn.com",
       "noobsverse-cdn-public.s3.ap-south-1.amazonaws.com",
+      "www.deccanchronicle.com",
     ], // Add LinkedIn's CDN domain here
   },
 };

@@ -127,8 +127,8 @@ export default function Page() {
                   Check out my recent talks and hackathons that I&apos;ve won.
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve given many talks and workshops on various
-                  technologies.
+                  I&apos;ve given many talks and won over 15 hackathons, here
+                  are best ones.
                 </p>
               </div>
             </div>
