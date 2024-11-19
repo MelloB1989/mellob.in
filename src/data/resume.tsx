@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon, NotebookIcon, BriefcaseBusiness } from "lucide-react";
 
 export const DATA = {
   name: "Kartik Deshmukh",
@@ -8,7 +8,7 @@ export const DATA = {
   location: "Hyderabad, India",
   locationLink: "https://www.google.com/maps/place/hyderabad",
   description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
+    "Experienced developer | 15x National level hackathons winner | Founder @Noobsverse. I love building things and helping people. Very active on Twitter.",
   summary:
     "I am Kartik Deshmukh aka MelloB. I am a keen developer with a great passion for technology. I have been coding since I was 12, I have explored various fields like Linux, IoT and embedded systems, Ethical Hacking, Web and app development, cloud computing, cryptocurrency, and AI, and still continuing to explore more and more.",
   avatarUrl: "/me.JPG",
@@ -41,7 +41,12 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "https://blogs.mellob.in", icon: NotebookIcon, label: "Blog" },
+    {
+      href: "https://coffeecodes.in",
+      icon: BriefcaseBusiness,
+      label: "CoffeeCodes",
+    },
   ],
   contact: {
     email: "kartik.mellob@coffeecodes.in",
@@ -260,6 +265,110 @@ export const DATA = {
       ],
     },
     {
+      title: "Karma Street View",
+      dates: "2023",
+      location: "Hyderabad, India",
+      description: "A Google Street View clone.",
+      image:
+        "https://noobsverse-cdn-public.s3.ap-south-1.amazonaws.com/assets/karma-street-view-removebg-preview.png",
+      mlh: "https://noobsverse-cdn-public.s3.ap-south-1.amazonaws.com/assets/karma-street-view-removebg-preview.png",
+      links: [
+        {
+          title: "Github",
+          href: "https://github.com/MelloB1989/karma-street-view",
+          icon: <Icons.github className="h-4 w-4" />,
+        },
+      ],
+    },
+    {
+      title: "KarmaPay",
+      dates: "2023",
+      location: "Hyderabad, India",
+      description:
+        "KarmaPay is an open-source project that aims to simplify online payments by providing a unified API endpoint for multiple payment gateways. It abstracts the complexities of integration, allowing developers to seamlessly work with various payment providers while maintaining a single, consistent interface.",
+      image: "/karmapay.png",
+      links: [
+        {
+          title: "Source",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/MelloB1989/karmapay.pg",
+        },
+        {
+          title: "Documentation",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://docs.coffeecodes.in/KarmaPay",
+        },
+        {
+          title: "Website",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://karmapay.live/",
+        },
+      ],
+    },
+    {
+      title: "Karmatch",
+      dates: "2024",
+      location: "Hyderabad, India",
+      description:
+        "A AI powered matchmaking platform that uses machine learning to match users based on their interests and preferences.",
+      image: "/Karmatch.png",
+      win: "Best Data Hack",
+      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2018/white.svg",
+      links: [
+        {
+          title: "Backend",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/MelloB1989/karmatch.backend",
+        },
+        {
+          title: "React Native",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/MelloB1989/karmatch.app",
+        },
+      ],
+    },
+    {
+      title: "Karma Auth",
+      dates: "2023",
+      location: "Hyderabad, India",
+      description:
+        "A simple authentication library for Node.js that uses JWT tokens for authentication. It is a alternative to Firebase auth.",
+      image: "",
+      mlh: "",
+      links: [
+        {
+          title: "NPM",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://www.npmjs.com/package/karma-auth.npm",
+        },
+        {
+          title: "Github",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/MelloB1989/karma-auth.npm",
+        },
+      ],
+    },
+    {
+      title: "Karma DevOps Guru",
+      dates: "2024",
+      location: "Hyderabad, India",
+      description:
+        "Developed a web application which aggregates social media data regarding cryptocurrencies and predicts future prices.",
+      image: "/k.jpg",
+      links: [
+        {
+          title: "LinkedIn Post",
+          icon: <Icons.linkedin className="h-4 w-4" />,
+          href: "https://www.linkedin.com/posts/mellobai_devops-kubernetes-aks-activity-7218898748620382209-9_9U?utm_source=share&utm_medium=member_desktop",
+        },
+        {
+          title: "Website",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://karma-ops.coffeecodes.in/",
+        },
+      ],
+    },
+    {
       title: "ZeroKart",
       dates: "2023",
       location: "Hyderabad, India",
@@ -288,48 +397,6 @@ export const DATA = {
           title: "LinkedIn Post",
           href: "https://www.linkedin.com/posts/shiva-charan-mandhapuram-%E2%9A%A1%EF%B8%8F-a23762201_ease-your-preparation-with-our-notes-app-activity-7188595195263778817-WQWh?utm_source=share&utm_medium=member_desktop",
           icon: <Icons.linkedin className="h-4 w-4" />,
-        },
-      ],
-    },
-    {
-      title: "Karma DevOps Guru",
-      dates: "2024",
-      location: "Hyderabad, India",
-      description:
-        "Developed a web application which aggregates social media data regarding cryptocurrencies and predicts future prices.",
-      image: "/k.jpg",
-      links: [
-        {
-          title: "LinkedIn Post",
-          icon: <Icons.linkedin className="h-4 w-4" />,
-          href: "https://www.linkedin.com/posts/mellobai_devops-kubernetes-aks-activity-7218898748620382209-9_9U?utm_source=share&utm_medium=member_desktop",
-        },
-        {
-          title: "Website",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://karma-ops.coffeecodes.in/",
-        },
-      ],
-    },
-    {
-      title: "Karmatch",
-      dates: "2024",
-      location: "Hyderabad, India",
-      description:
-        "A AI powered matchmaking platform that uses machine learning to match users based on their interests and preferences.",
-      image: "/Karmatch.png",
-      win: "Best Data Hack",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2018/white.svg",
-      links: [
-        {
-          title: "Backend",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/MelloB1989/karmatch.backend",
-        },
-        {
-          title: "React Native",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/MelloB1989/karmatch.app",
         },
       ],
     },
@@ -363,52 +430,6 @@ export const DATA = {
           title: "Github",
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/MelloB1989/incogni.ngl",
-        },
-      ],
-    },
-    {
-      title: "Karma Auth",
-      dates: "2023",
-      location: "Hyderabad, India",
-      description:
-        "A simple authentication library for Node.js that uses JWT tokens for authentication. It is a alternative to Firebase auth.",
-      image: "",
-      mlh: "",
-      links: [
-        {
-          title: "NPM",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://www.npmjs.com/package/karma-auth.npm",
-        },
-        {
-          title: "Github",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/MelloB1989/karma-auth.npm",
-        },
-      ],
-    },
-    {
-      title: "KarmaPay",
-      dates: "2023",
-      location: "Hyderabad, India",
-      description:
-        "KarmaPay is an open-source project that aims to simplify online payments by providing a unified API endpoint for multiple payment gateways. It abstracts the complexities of integration, allowing developers to seamlessly work with various payment providers while maintaining a single, consistent interface.",
-      image: "/karmapay.png",
-      links: [
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/MelloB1989/karmapay.pg",
-        },
-        {
-          title: "Documentation",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://docs.coffeecodes.in/KarmaPay",
-        },
-        {
-          title: "Website",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://karmapay.live/",
         },
       ],
     },
