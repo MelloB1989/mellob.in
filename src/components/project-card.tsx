@@ -60,7 +60,7 @@ export function ProjectCard({
         )}
         {image && (
           <Image
-            src={image}
+            src={`https://img-proxy.mellob.in/img?url=${encodeURIComponent(image)}`}
             alt={title}
             width={500}
             height={300}
